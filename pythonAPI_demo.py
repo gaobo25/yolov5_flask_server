@@ -19,7 +19,7 @@ def pick_img(image):
 
 
 if __name__ == '__main__':
-    image_path = r"D:\PycharmProjects\pythonProject\yolov5_flask_onnx\data"
+    image_path = r"./data"
     for img in os.listdir(image_path):
         new_path = os.path.join(image_path, img)
         data = pick_img(new_path)
