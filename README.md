@@ -2,4 +2,4 @@
 
 优化本地api访问 只需要传入图片地址即可
 
-参考链接 
+参考链接 https://github.com/luosaidage/yolov5_onnx_server
