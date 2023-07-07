@@ -9,7 +9,7 @@ def pick_img(image):
     data = {
         'images': [image]
     }
-    request_url = "http://192.168.0.205:8001/detect"
+    request_url = "http://127.0.0.1:8001/detect"
     response = requests.post(request_url, headers=headers, json=data)
     if response.status_code == 200:
         data = response.json()
